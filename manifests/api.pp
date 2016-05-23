@@ -47,7 +47,7 @@
     wsgi_daemon_process_options => {
       processes => '2',
       threads => '15',
-      display-name =>' %{GROUP}',
+      display-name => '%{GROUP}',
     },
 
     wsgi_import_script => '/usr/share/crams/wsgi/crams.wsgi',
