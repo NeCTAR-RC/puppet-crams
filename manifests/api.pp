@@ -38,46 +38,45 @@
 
   apache::vhost {$host:
     serveradmin => $admin_email,
-    port    => $port,
+    port => $port,
     docroot => '/var/lib/www',
     fallbackresource => '/error.html',
 
     wsgi_application_group => '%{GLOBAL}',
-    wsgi_daemon_process    => 'wsgi',
+    wsgi_daemon_process => 'wsgi',
     wsgi_daemon_process_options => {
-      processes  => '2',
-      threads    => '15',
-      display-name => '%{GROUP}',
+      processes => '2',
+      threads =>'15',
+      display-name =>'%{GROUP}',
     },
-    wsgi_import_script    => '/usr/share/crams/wsgi/crams.wsgi',
-    wsgi_import_script_options  => {
-      process-group    => 'wsgi',
+    wsgi_import_script => '/usr/share/crams/wsgi/crams.wsgi',
+    wsgi_import_script_options => {
+      process-group => 'wsgi',
       application-group => '%{GLOBAL}',
     },
-    wsgi_process_group    => 'wsgi',
+    wsgi_process_group => 'wsgi',
     wsgi_script_aliases => {
-      '/'    => '/usr/share/crams/wsgi/crams.wsgi'
+      '/' => '/usr/share/crams/wsgi/crams.wsgi'
     },
-
-    aliases   => [
+    aliases => [
       {
         alias => '/media',
-        path  => '/usr/share/crams/media',
+        path => '/usr/share/crams/media',
       },
       {
         alias => '/static',
-        path  => '/usr/share/crams/static',
+        path => '/usr/share/crams/static',
       },
     ],
-    directories  => [
+    directories => [
       {
         path => '/usr/share/crams/media',
         options => ['-Indexes']
       },
       {
-        path    => '/usr/share/crams/static',
+        path => '/usr/share/crams/static',
         options => ['-Indexes']
       },
     ],
   }
-}
+ }
