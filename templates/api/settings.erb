@@ -1,0 +1,37 @@
+__author__ = 'simonyu, rafi Feroze'
+
+# Keystone Access Related
+KS_USERNAME = <%= admin_user %>
+KS_PASSWORD = <%= admin_pass %>
+KS_PROJECT = <%= admin_tenant %>
+KS_URL = <%= auth_url %>
+
+
+# Use `django-admin generate_secret_key` to set a secret key
+# SECRET_KEY = <%= secret key %>
+
+DEBUG = FALSE
+
+Set DB settings (if not set will use sqlite)
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': <%= db_name %>,
+       'USER': <%= db_user %>,
+       'PASSWORD': <%= db_pass %>,
+       'HOST': <%= db_host %>,    # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+       'PORT': '',                # Set to empty string for default.
+   }
+}
+
+STATIC_ROOT = '/usr/share/crams/static/'
+
+# Email notification configuration
+EMAIL_SENDER = 'admin@crams.rc.nectar.org.au'
+
+# Send email to the console by default
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# Or have an smtp backend, it will send email to admin user
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# django-mailer uses a different settings attribute
+MAILER_EMAIL_BACKEND = EMAIL_BACKEND
