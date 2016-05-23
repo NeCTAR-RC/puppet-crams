@@ -28,13 +28,13 @@
     require => Package['crams-api'],
   }
 
-    file {'/var/lib/www/error.html':
-      owner   => root,
-      group   => root,
-      mode    => '0600',
-      content => template('crams/api/error.erb'),
-      require => Package['crams-api'],
-    }
+  file {'/var/lib/www/error.html':
+    owner   => root,
+    group   => root,
+    mode    => '0600',
+    content => template('crams/api/error.erb'),
+    require => Package['crams-api'],
+  }
 
   apache::vhost {$host:
     serveradmin => $admin_email,
@@ -46,18 +46,21 @@
     wsgi_daemon_process => 'wsgi',
     wsgi_daemon_process_options => {
       processes => '2',
-      threads =>'15',
-      display-name =>'%{GROUP}',
+      threads => '15',
+      display-name =>' %{GROUP}',
     },
+
     wsgi_import_script => '/usr/share/crams/wsgi/crams.wsgi',
     wsgi_import_script_options => {
       process-group => 'wsgi',
       application-group => '%{GLOBAL}',
     },
+
     wsgi_process_group => 'wsgi',
     wsgi_script_aliases => {
       '/' => '/usr/share/crams/wsgi/crams.wsgi'
     },
+
     aliases => [
       {
         alias => '/media',
