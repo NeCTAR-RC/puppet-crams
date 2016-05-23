@@ -1,0 +1,84 @@
+__author__ = 'simonyu, rafi Feroze'
+# Identify run environment
+ENVIRONMENT=<%= @crams_env %>
+
+# Keystone Access Related
+KS_USERNAME = <%= @ks_admin_user %>
+KS_PASSWORD = <%= @ks_admin_pass %>
+KS_PROJECT = <%= @ks_admin_tenant %>
+KS_URL = <%= @ks_auth_url %>
+
+# Allowed Hosts
+ALLOWED_HOSTS = [
+   <% unless allowed_hosts.empty? %>'<%= allowed_hosts.join("',\n    '") %>'<% end %>
+]
+
+# Use `django-admin generate_secret_key` to set a secret key
+SECRET_KEY = <%= @secret_key %>
+
+DEBUG = FALSE
+
+Set DB settings (if not set will use sqlite)
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': <%= @db_name %>,
+       'USER': <%= @db_username %>,
+       'PASSWORD': <%= @db_password %>,
+       'HOST': <%= @db_host %>,    # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+       'PORT': '<%= @db_port %>', # Set to empty string for default.
+   }
+}
+
+STATIC_ROOT = '/usr/share/crams/static/'
+
+# Email notification configuration
+EMAIL_SENDER = <%= @crams_email_address %>
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# django-mailer uses a different settings attribute
+MAILER_EMAIL_BACKEND = EMAIL_BACKEND
+
+
+# A sample logging configuration. The only tangible logging
+# performed by this configuration is to send an email to
+# the site admins on every HTTP 500 error when DEBUG=False.
+# See http://docs.djangoproject.com/en/dev/topics/logging for
+# more details on how to customize your logging configuration.
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'simple': {
+            'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        },
+    },
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'formatter': 'simple',
+            'filename': '/var/log/crams/debug.log',
+        },
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        '': {
+            'handlers': ['file'],
+            'level': 'INFO',
+        },
+    }
+}
