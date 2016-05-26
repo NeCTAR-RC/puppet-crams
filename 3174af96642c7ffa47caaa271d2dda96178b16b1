@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_582cec47",
+        "filename": "manifests/api.pp",
+        "patchSetId": 16
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-05-26T05:37:02Z",
+      "side": 1,
+      "message": "the package will create the user, so this isn\u0027t needed",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 3
+      },
+      "revId": "3174af96642c7ffa47caaa271d2dda96178b16b1",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_b81a5815",
+        "filename": "manifests/cramsclient/nectar.pp",
+        "patchSetId": 16
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-05-26T05:37:02Z",
+      "side": 1,
+      "message": "some sane defaults here would be appreciated, eg. by default run every hour",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "3174af96642c7ffa47caaa271d2dda96178b16b1",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_7820d049",
+        "filename": "manifests/cramsclient/nectar.pp",
+        "patchSetId": 16
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-05-26T05:37:02Z",
+      "side": 1,
+      "message": "Please name this something more descriptive like \"crams-provision-accounts\"",
+      "range": {
+        "startLine": 28,
+        "startChar": 10,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "3174af96642c7ffa47caaa271d2dda96178b16b1",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_981d9412",
+        "filename": "manifests/cramsclient/nectar.pp",
+        "patchSetId": 16
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-05-26T05:37:02Z",
+      "side": 1,
+      "message": "Can we log to /var/log/cramsclient-nectar/\n\nI\u0027ll get the package to ensure this directory exists",
+      "range": {
+        "startLine": 29,
+        "startChar": 86,
+        "endLine": 29,
+        "endChar": 104
+      },
+      "revId": "3174af96642c7ffa47caaa271d2dda96178b16b1",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
