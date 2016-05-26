@@ -22,6 +22,30 @@
       "revId": "262852dedda11ce0200fccf33efdd204feb36ab6",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_430de28f",
+        "filename": "manifests/wsgi/apache.pp",
+        "patchSetId": 10
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-05-26T05:53:14Z",
+      "side": 1,
+      "message": "Not used at the moment, but we usually create a static and media folder for downloads. It is possible that once reports are generated, there will be graphs to download",
+      "parentUuid": "bad4c104_e8f9754e",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 8
+      },
+      "revId": "262852dedda11ce0200fccf33efdd204feb36ab6",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
