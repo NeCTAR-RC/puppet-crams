@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_0813f9b8",
+        "filename": "manifests/api.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-05-26T05:53:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_486fc1c5",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 14
+      },
+      "revId": "7c214054e76a12e3a6ba5248415ab3ade15727d2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_68748599",
         "filename": "manifests/api.pp",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2016-05-23T06:08:10Z",
       "side": 1,
       "message": "this can go, see my comment in the file",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 5
+      },
+      "revId": "7c214054e76a12e3a6ba5248415ab3ade15727d2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_2818bdd2",
+        "filename": "manifests/api.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-05-26T05:53:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_68748599",
       "range": {
         "startLine": 30,
         "startChar": 0,
