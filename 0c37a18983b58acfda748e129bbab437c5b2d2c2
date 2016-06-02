@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_498980ea",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_ce03d60d",
+      "range": {
+        "startLine": 4,
+        "startChar": 2,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_6913a45c",
         "filename": "manifests/api.pp",
         "patchSetId": 19
@@ -36,6 +60,30 @@
       "writtenOn": "2016-06-02T01:23:08Z",
       "side": 1,
       "message": "default to []",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 9,
+        "endChar": 16
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_696d6432",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_6913a45c",
       "range": {
         "startLine": 9,
         "startChar": 3,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_896aa818",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_8910e84f",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 10
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_a91dac68",
         "filename": "manifests/api.pp",
         "patchSetId": 19
@@ -82,6 +154,30 @@
       "writtenOn": "2016-06-02T01:23:08Z",
       "side": 1,
       "message": "default to crams",
+      "range": {
+        "startLine": 12,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 14
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_a9776c01",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_a91dac68",
       "range": {
         "startLine": 12,
         "startChar": 2,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_c974b0ff",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_c91af06d",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 10
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_e926d4b9",
         "filename": "manifests/api.pp",
         "patchSetId": 19
@@ -128,6 +248,30 @@
       "writtenOn": "2016-06-02T01:23:08Z",
       "side": 1,
       "message": "default to empty string   \u003d \u0027\u0027",
+      "range": {
+        "startLine": 15,
+        "startChar": 3,
+        "endLine": 15,
+        "endChar": 11
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_e9609437",
+        "filename": "manifests/api.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_e926d4b9",
       "range": {
         "startLine": 15,
         "startChar": 3,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_29843cd3",
+        "filename": "manifests/cramsclient/nectar.pp",
+        "patchSetId": 19
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Changed to \n  $cron_hour\u003d[\"0-23\"],\n  $cron_minute\u003d\u0027*/30\u0027,",
+      "parentUuid": "bad4c104_8e09ce33",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 17
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_e9ffb4ff",
         "filename": "templates/api/settings.erb",
         "patchSetId": 19
@@ -186,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "bad4c104_c9e2f09e",
+        "filename": "templates/api/settings.erb",
+        "patchSetId": 19
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bad4c104_e9ffb4ff",
+      "range": {
+        "startLine": 3,
+        "startChar": 12,
+        "endLine": 3,
+        "endChar": 31
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bad4c104_490fc030",
         "filename": "templates/api/settings.erb",
         "patchSetId": 19
@@ -197,6 +389,30 @@
       "writtenOn": "2016-06-02T01:23:08Z",
       "side": 1,
       "message": "this will need to be something like\n\nALLOWED_HOSTS \u003d [          \n   \u003c% unless allowed_hosts.empty? %\u003e\u0027\u003c%\u003d allowed_hosts.join(\"\u0027,\\n    \u0027\") %\u003e\u0027\u003c% end %\u003e                                                   \n]",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 41
+      },
+      "revId": "0c37a18983b58acfda748e129bbab437c5b2d2c2",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_e9eed48a",
+        "filename": "templates/api/settings.erb",
+        "patchSetId": 19
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-06-02T06:16:27Z",
+      "side": 1,
+      "message": "Thanks for the script.",
+      "parentUuid": "bad4c104_490fc030",
       "range": {
         "startLine": 12,
         "startChar": 0,
