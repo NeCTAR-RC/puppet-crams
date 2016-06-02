@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_4b741899",
+        "filename": "manifests/api.pp",
+        "patchSetId": 17
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-02T01:23:08Z",
+      "side": 1,
+      "message": "please default to $::fqdn",
+      "range": {
+        "startLine": 3,
+        "startChar": 9,
+        "endLine": 3,
+        "endChar": 18
+      },
+      "revId": "e67727b944c0acbdd9d4b5e64c96a1605db40a0e",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_6b68fcba",
+        "filename": "manifests/wsgi/apache.pp",
+        "patchSetId": 17
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-02T01:23:08Z",
+      "side": 1,
+      "message": "use 1 here",
+      "range": {
+        "startLine": 15,
+        "startChar": 23,
+        "endLine": 15,
+        "endChar": 24
+      },
+      "revId": "e67727b944c0acbdd9d4b5e64c96a1605db40a0e",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_2b6fd4c6",
+        "filename": "templates/api/settings.erb",
+        "patchSetId": 17
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-02T01:23:08Z",
+      "side": 1,
+      "message": "these are prefixed with ks_* in the manifest",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "e67727b944c0acbdd9d4b5e64c96a1605db40a0e",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
