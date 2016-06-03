@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_ff0a02d1",
+        "filename": ".gitignore",
+        "patchSetId": 26
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-03T06:18:11Z",
+      "side": 1,
+      "message": "this shouldn\u0027t be here, not to do with this repo. Add it to your global ignore etc.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 6
+      },
+      "revId": "8e8eca6146142a2c09566442a59cc814b7f410c0",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_5f720e7d",
+        "filename": "manifests/frontend/cramsrcfrontend.pp",
+        "patchSetId": 26
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-03T06:18:11Z",
+      "side": 1,
+      "message": "Looks like this variable isn\u0027t used?",
+      "range": {
+        "startLine": 2,
+        "startChar": 2,
+        "endLine": 2,
+        "endChar": 19
+      },
+      "revId": "8e8eca6146142a2c09566442a59cc814b7f410c0",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_7f6fd292",
+        "filename": "manifests/frontend/cramsrcfrontend.pp",
+        "patchSetId": 26
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-03T06:18:11Z",
+      "side": 1,
+      "message": "Don\u0027t need to require this",
+      "range": {
+        "startLine": 29,
+        "startChar": 45,
+        "endLine": 29,
+        "endChar": 50
+      },
+      "revId": "8e8eca6146142a2c09566442a59cc814b7f410c0",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
