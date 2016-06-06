@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_bf74fafd",
+        "filename": "manifests/frontend/cramsrcfrontend.pp",
+        "patchSetId": 29
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-06T00:27:06Z",
+      "side": 1,
+      "message": "config files should go in /etc\n\nThis directory is managed by the package so when the package  gets upgraded this file would be wiped",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 3
+      },
+      "revId": "326420c19879e0659036a7e97155423ac0027d69",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
