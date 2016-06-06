@@ -22,6 +22,30 @@
       "revId": "326420c19879e0659036a7e97155423ac0027d69",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_ffccc237",
+        "filename": "manifests/frontend/cramsrcfrontend.pp",
+        "patchSetId": 29
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-06-06T00:47:30Z",
+      "side": 1,
+      "message": "it\u0027s a part of javascript file which is included in the index html file. it\u0027s the same as the other javascript files in crams-rc-frontend. it\u0027s not convenient if we move it to /etc/ directory, we have to enable (set the permissions for /etc/ directory in apache2.",
+      "parentUuid": "bad4c104_bf74fafd",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 3
+      },
+      "revId": "326420c19879e0659036a7e97155423ac0027d69",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
