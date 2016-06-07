@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_7a2280ba",
+        "filename": "templates/frontend/crams.config.js.erb",
+        "patchSetId": 31
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-06-07T23:12:50Z",
+      "side": 1,
+      "message": "Is this meant to be production?",
+      "range": {
+        "startLine": 5,
+        "startChar": 24,
+        "endLine": 5,
+        "endChar": 31
+      },
+      "revId": "798b8154f10361b610ba92f3a7ef07150745eee0",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
