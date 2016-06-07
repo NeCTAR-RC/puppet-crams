@@ -22,6 +22,30 @@
       "revId": "798b8154f10361b610ba92f3a7ef07150745eee0",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bad4c104_b813310c",
+        "filename": "templates/frontend/crams.config.js.erb",
+        "patchSetId": 31
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-06-07T23:57:54Z",
+      "side": 1,
+      "message": "yes.it\u0027s production",
+      "parentUuid": "bad4c104_7a2280ba",
+      "range": {
+        "startLine": 5,
+        "startChar": 24,
+        "endLine": 5,
+        "endChar": 31
+      },
+      "revId": "798b8154f10361b610ba92f3a7ef07150745eee0",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
