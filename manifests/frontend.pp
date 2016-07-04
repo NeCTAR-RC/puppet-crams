@@ -1,7 +1,6 @@
-class crams::frontend::cramsrcfrontend(
+class crams::frontend(
   $cramsapi_server,
   $servername          = $::fqdn,
-  $port                = 443,
   $bind_host           = undef,
   $ssl                 = true,
   $ssl_cert            = undef,
@@ -16,7 +15,10 @@ class crams::frontend::cramsrcfrontend(
   include ::apache
 
   if $ssl {
+    $port = 443
     include ::apache::mod::ssl
+  } else {
+    $port = 80
   }
 
   package { 'crams-rc-frontend':
@@ -33,7 +35,7 @@ class crams::frontend::cramsrcfrontend(
     owner   => root,
     group   => root,
     mode    => '0644',
-    content => template('frontend/crams.config.js.erb'),
+    content => template('crams/frontend/crams.config.js.erb'),
     require => Package['crams-rc-frontend'],
   }
 
