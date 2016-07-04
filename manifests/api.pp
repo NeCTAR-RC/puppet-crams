@@ -1,10 +1,10 @@
 # Crams API server install and configuration
 class crams::api (
-  $crams_email_address,
+  $crams_email,
   $admin_email,
-  $ks_admin_user,
+  $ks_admin_user='crams',
   $ks_admin_pass,
-  $ks_admin_tenant,
+  $ks_admin_project='service',
   $ks_auth_url,
   $allowed_hosts=[],
   $secret_key,

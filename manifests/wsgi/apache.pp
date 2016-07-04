@@ -1,7 +1,6 @@
 # Apache WSGI setup
 class crams::wsgi::apache(
   $servername         = $::fqdn,
-  $port               = 443,
   $bind_host          = undef,
   $path               = '/',
   $service_name       = 'crams_wsgi',
@@ -25,8 +24,10 @@ class crams::wsgi::apache(
   include ::apache::mod::wsgi
   if $ssl {
     include ::apache::mod::ssl
+    $port = 443
+  } else {
+    $port = 80
   }
-
   # Ensure there's no trailing '/' except if this is also the only character
   $path_real = regsubst($path, '(^/.*)/$', '\1')
 
