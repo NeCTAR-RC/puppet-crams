@@ -77,6 +77,7 @@ class crams::wsgi::apache(
     wsgi_daemon_process_options => $wsgi_daemon_process_options,
     wsgi_process_group          => $group,
     wsgi_script_aliases         => $wsgi_script_aliases,
+    wsgi_pass_authorization     => 'On',
     wsgi_application_group      => '%{GLOBAL}',
     require                     => File[$service_name],
     fallbackresource            => '/usr/share/crams/static/severe-error.html',
