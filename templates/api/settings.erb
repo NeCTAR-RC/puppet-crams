@@ -37,6 +37,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # django-mailer uses a different settings attribute
 MAILER_EMAIL_BACKEND = EMAIL_BACKEND
 
+# Populate RC Shiboleth URL used for authentication
+CRAMS_RC_SHIB_URL_PART = '<%= @rc_shib_url %>/?return-path='
+
+# Default Front-end Login URL
+NECTAR_CLIENT_URL = '<%= @default_client_url %>/#/ks-login/'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
