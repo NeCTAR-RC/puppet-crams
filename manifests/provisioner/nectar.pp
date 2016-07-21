@@ -1,13 +1,11 @@
-class crams::cramsclient::nectar(
+class crams::provisioner::nectar(
   $cramsapi_server,
-  $cramsapi_auth_path,
-  $crams_provision_api_path,
-  $crams_provision_api_update_path,
+  $cramsapi_auth_path='json_token_auth',
+  $crams_provision_api_path='api/v1/provision_project/list',
+  $crams_provision_api_update_path='api/v1/provision_project/update',
   $os_auth_url,
-  $os_tenant_name,
-  $os_tenant_id,
-  $os_user_name,
-  $os_user_id,
+  $os_project_name,
+  $os_username,
   $os_password,
   $cron_hour='*',
   $cron_minute='*/30'
@@ -21,12 +19,12 @@ class crams::cramsclient::nectar(
     owner   => root,
     group   => root,
     mode    => '0644',
-    content => template('cramsclient/nectar/setting.py.erb'),
+    content => template('provisioner/nectar/setting.py.erb'),
     require => Package['cramsclient-nectar'],
   }
 
   cron { 'crams-provision-accounts':
-    command => 'python3 /usr/lib/python3/dist-packages/crams_provision/provision.py > /var/log/cramsclient-nectar/provision.log 2>&1',
+    command => '/usr/bin/crams-provision-nectar > /var/log/cramsclient-nectar/provision.log 2>&1',
     user    => root,
     hour    => $cron_hour,
     minute  => $cron_minute,
