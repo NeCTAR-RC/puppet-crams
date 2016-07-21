@@ -5,28 +5,12 @@ CRAMS NeCTAR Provisioning local settings to override some of default settings
 
 # CRAMS api server
 CRAMS_SERVER_BASE = <%= @cramsapi_server %>
-
 CRAMS_AUTH_API_PATH = <%= @cramsapi_auth_path %>
-
 CRAMS_PROVISION_API_PATH = <%= @crams_provision_api_path %>
-
 CRAMS_PROVISION_UPDATE_PATH = <%= @crams_provision_api_update_path %>
 
 # --- OPENSTACK Keystone configurations ---
-# Using Keystone version 3 api
 OS_AUTH_URL = <%= @os_auth_url %>
-
-# Tenant name
-OS_TENANT_NAME = <%= @os_tenant_name %>
-
-# tenant_id
-OS_TENANT_ID = <%= @os_tenant_id %>
-
-# admin user name
-OS_USERNAME = <%= @os_user_name %>
-
-# admin user id
-OS_USER_ID = <%= @os_user_id %>
-
-# admin user password
+OS_PROJECT_NAME = <%= @os_project_name %>
+OS_USERNAME = <%= @os_username %>
 OS_PASSWORD = <%= @os_password %>
