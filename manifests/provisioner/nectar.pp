@@ -19,7 +19,7 @@ class crams::provisioner::nectar(
     owner   => root,
     group   => root,
     mode    => '0644',
-    content => template('provisioner/nectar/setting.py.erb'),
+    content => template('crams/provisioner/nectar/setting.py.erb'),
     require => Package['cramsclient-nectar'],
   }
 
