@@ -85,20 +85,20 @@ class crams::wsgi::apache(
     aliases                     => [
       {
         alias => '/media',
-        path  => '/var/www/crams/media',
+        path  => '/usr/share/crams/media',
       },
       {
         alias => '/static',
-        path  => '/var/www/crams/static',
+        path  => '/usr/share/crams/static',
       },
     ],
     directories                 => [
       {
-        path    => '/var/www/crams/media',
+        path    => '/usr/share/crams/media',
         options => ['-Indexes']
       },
       {
-        path    => '/var/www/crams/static',
+        path    => '/usr/share/crams/static',
         options => ['-Indexes']
       },
     ],
