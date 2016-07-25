@@ -6,6 +6,13 @@ KS_PASSWORD = '<%= @ks_admin_pass %>'
 KS_PROJECT = '<%= @ks_admin_project %>'
 KS_URL = '<%= @ks_auth_url %>'
 
+# APPROVER ROLES
+NECTAR_APPROVER_ROLE = '<%= @nectar_approver_role %>'
+VICNODE_APPROVER_ROLE = '<%= @vicnode_approver_role %>'
+
+# PROVISONER ROLES
+CRAMS_PROVISIONER_ROLE = '<%= @crams_provisioner_role %>'
+
 # Allowed Hosts
 ALLOWED_HOSTS = [
    <% unless allowed_hosts.empty? %>'<%= allowed_hosts.join("',\n    '") %>'<% end %>
