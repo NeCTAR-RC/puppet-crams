@@ -3,6 +3,7 @@ class crams::provisioner::nectar(
   $cramsapi_auth_path='json_token_auth',
   $crams_provision_api_path='api/v1/provision_project/list',
   $crams_provision_api_update_path='api/v1/provision_project/update',
+  $provision_log_dir = '/var/log',
   $os_auth_url,
   $os_project_name,
   $os_username,
