@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7adec928_73b6628c",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000077
+      },
+      "writtenOn": "2016-08-08T06:28:40Z",
+      "side": 1,
+      "message": "We should put logs into its own directory, e.g.\n/var/log/provisioner\nand create a new directory for it and set the right permissions in this puppet module",
+      "range": {
+        "startLine": 6,
+        "startChar": 23,
+        "endLine": 6,
+        "endChar": 33
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7adec928_b3af0a2b",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000077
+      },
+      "writtenOn": "2016-08-08T06:28:40Z",
+      "side": 1,
+      "message": "could this be the same log directory as $provision_log_dir ?",
+      "range": {
+        "startLine": 28,
+        "startChar": 59,
+        "endLine": 28,
+        "endChar": 77
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7adec928_93bbee71",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000077
+      },
+      "writtenOn": "2016-08-08T06:28:40Z",
+      "side": 1,
+      "message": "Does this really need to be run as root?",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 20
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
