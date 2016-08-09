@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7adec928_f357d224",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-08-09T01:09:41Z",
+      "side": 1,
+      "message": "the log directory should be /var/log/cramsclient-nectar",
+      "parentUuid": "7adec928_73b6628c",
+      "range": {
+        "startLine": 6,
+        "startChar": 23,
+        "endLine": 6,
+        "endChar": 33
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7adec928_b3af0a2b",
         "filename": "manifests/provisioner/nectar.pp",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "7adec928_13551e1d",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-08-09T01:09:41Z",
+      "side": 1,
+      "message": "it will be replaced with $provision_log_dir",
+      "parentUuid": "7adec928_b3af0a2b",
+      "range": {
+        "startLine": 28,
+        "startChar": 59,
+        "endLine": 28,
+        "endChar": 77
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7adec928_93bbee71",
         "filename": "manifests/provisioner/nectar.pp",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2016-08-08T06:28:40Z",
       "side": 1,
       "message": "Does this really need to be run as root?",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 20
+      },
+      "revId": "29ed357f9ae9face920487672fdecbacf098ad96",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7adec928_33313a0c",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-08-09T01:09:41Z",
+      "side": 1,
+      "message": "not sure which user will run this cron job, just put the root user here",
+      "parentUuid": "7adec928_93bbee71",
       "range": {
         "startLine": 29,
         "startChar": 0,
