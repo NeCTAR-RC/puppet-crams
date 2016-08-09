@@ -69,6 +69,30 @@
       "revId": "0b3f33e34946ac6f3845d19dda70953236dcb897",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7adec928_25d80d1d",
+        "filename": "manifests/provisioner/nectar.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000133
+      },
+      "writtenOn": "2016-08-09T07:24:14Z",
+      "side": 1,
+      "message": "For the directory ownership, I just follow the crams-api ownership which Sam he did that. The ownership of crams-api it\u0027s root. Shall we change all with a non-root user?",
+      "parentUuid": "7adec928_25c1ed2e",
+      "range": {
+        "startLine": 29,
+        "startChar": 15,
+        "endLine": 29,
+        "endChar": 19
+      },
+      "revId": "0b3f33e34946ac6f3845d19dda70953236dcb897",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
