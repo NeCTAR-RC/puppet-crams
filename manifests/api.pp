@@ -13,6 +13,7 @@ class crams::api (
   $allowed_hosts=[],
   $secret_key,
   $default_client_url = 'https://crams.rc.nectar.org.au',
+  $default_client_view_request_path = '/#/allocations/view_request/',
   $db_name='crams',
   $db_username='crams',
   $db_password,
