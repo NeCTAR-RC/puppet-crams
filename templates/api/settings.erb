@@ -49,8 +49,12 @@ MAILER_EMAIL_BACKEND = EMAIL_BACKEND
 # Populate RC Shiboleth URL used for authentication
 CRAMS_RC_SHIB_URL_PART = '<%= @rc_shib_url %>/?return-path='
 
-# Default Front-end Login URL
-NECTAR_CLIENT_URL = '<%= @default_client_url %>/#/ks-login/'
+# Default Front-end URL and paths
+NECTAR_CLIENT_BASE_URL = '<%= @nectar_client_url %>'
+NECTAR_CLIENT_VIEW_REQUEST_PATH = '<%= @nectar_client_view_request_path %>'
+
+# Crams Token Expiry Time
+TOKEN_EXPIRY_TIME_MINUTES = <%= @crams_token_expiry_hours %> * 60 + <%= @crams_token_expiry_mins %>
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
