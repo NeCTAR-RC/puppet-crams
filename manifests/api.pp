@@ -10,6 +10,7 @@ class crams::api (
   $nectar_approver_role='AllocationAdmin',
   $vicnode_approver_role='vicnode_approver',
   $crams_provisioner_role='crams_provisioner',
+  $nectar_project_id_invalid_prefix_list=['pt-'],
   $crams_token_expiry_seconds=4 * 60 * 60,
   $allowed_hosts=[],
   $secret_key,
