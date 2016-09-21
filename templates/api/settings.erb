@@ -13,6 +13,9 @@ VICNODE_APPROVER_ROLE = '<%= @vicnode_approver_role %>'
 # PROVISONER ROLES
 CRAMS_PROVISIONER_ROLE = '<%= @crams_provisioner_role %>'
 
+# PROJECT_ID Prefix Validation
+NECTAR_PREFIX_INVALID = '<%= @nectar_project_id_invalid_prefix_list %>'
+
 # Allowed Hosts
 ALLOWED_HOSTS = [
    <% unless allowed_hosts.empty? %>'<%= allowed_hosts.join("',\n    '") %>'<% end %>
