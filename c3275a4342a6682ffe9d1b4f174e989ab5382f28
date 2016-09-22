@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7adec928_b3d8d954",
+        "filename": "templates/api/settings.erb",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-22T01:41:13Z",
+      "side": 1,
+      "message": "this is a puppet array so you\u0027ll need to output it the way django expects",
+      "range": {
+        "startLine": 17,
+        "startChar": 24,
+        "endLine": 17,
+        "endChar": 71
+      },
+      "revId": "c3275a4342a6682ffe9d1b4f174e989ab5382f28",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
