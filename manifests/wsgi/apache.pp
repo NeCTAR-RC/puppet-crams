@@ -57,6 +57,7 @@ class crams::wsgi::apache(
   }
   $wsgi_script_aliases = hash([$path_real,"${wsgi_script_dir}/${wsgi_script_file}"])
 
+  $admin_site_access = sprintf('ip %s', join($crams::api::admin_allowed_hosts, ' '))
 
   ::apache::vhost { $service_name:
     ensure                      => 'present',
@@ -100,6 +101,11 @@ class crams::wsgi::apache(
       {
         path    => '/var/www/crams/static',
         options => ['-Indexes']
+      },
+      {
+        path     => '/admin',
+        provider => 'location',
+        require  => $admin_site_access
       },
     ],
   }
