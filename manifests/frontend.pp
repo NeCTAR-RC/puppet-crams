@@ -3,10 +3,10 @@ class crams::frontend(
   $servername          = $::fqdn,
   $bind_host           = undef,
   $ssl                 = true,
-  $ssl_cert            = undef,
-  $ssl_key             = undef,
+  $ssl_cert            = $::ssl_cert_path,
+  $ssl_key             = $::ssl_key_path,
   $ssl_chain           = undef,
-  $ssl_ca              = undef,
+  $ssl_ca              = $::ssl_cacert_path,
   $ssl_certs_dir       = undef,
   $crams_frontend_root = '/var/www/app'
 
