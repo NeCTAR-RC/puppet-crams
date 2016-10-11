@@ -13,6 +13,7 @@ class crams::api (
   $nectar_project_id_invalid_prefix_list=['pt-'],
   $crams_token_expiry_seconds=4 * 60 * 60,
   $allowed_hosts=[],
+  $admin_allowed_hosts = ['127.0.0.1'],
   $secret_key,
   $nectar_client_url = 'https://crams.rc.nectar.org.au',
   $nectar_client_view_request_path = '/#/allocations/view_request/',
