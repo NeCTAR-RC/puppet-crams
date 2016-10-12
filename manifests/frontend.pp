@@ -3,7 +3,7 @@ class crams::frontend(
   $servername          = $::fqdn,
   $bind_host           = undef,
   $ssl                 = true,
-  $ssl_cert            = $::ssl_cert_path,
+  $ssl_cert            = $::ssl_certcombined_path,
   $ssl_key             = $::ssl_key_path,
   $ssl_chain           = undef,
   $ssl_ca              = $::ssl_cacert_path,

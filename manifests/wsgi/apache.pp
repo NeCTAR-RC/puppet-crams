@@ -9,7 +9,7 @@ class crams::wsgi::apache(
   $group              = 'crams',
   $ssl                = true,
   $workers            = 1,
-  $ssl_cert           = $::ssl_cert_path,
+  $ssl_cert           = $::ssl_certcombined_path,
   $ssl_key            = $::ssl_key_path,
   $ssl_chain          = undef,
   $ssl_ca             = $::ssl_cacert_path,
