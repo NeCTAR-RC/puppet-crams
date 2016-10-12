@@ -28,8 +28,8 @@ class crams::api (
   }
 
   file { '/etc/crams/settings.py':
-    owner   => root,
-    group   => root,
+    owner   => 'crams',
+    group   => 'crams',
     mode    => '0600',
     content => template('crams/api/settings.erb'),
     require => Package['crams-api'],
