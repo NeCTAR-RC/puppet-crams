@@ -39,6 +39,30 @@
       "revId": "90824077cbd09b260747e17f1f98dc9bb16d419d",
       "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7adec928_70a54e52",
+        "filename": "manifests/api.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000172
+      },
+      "writtenOn": "2016-11-29T03:41:33Z",
+      "side": 1,
+      "message": "The mail code requires a list, can we leave this as a list with one element",
+      "parentUuid": "7adec928_7060ee32",
+      "range": {
+        "startLine": 5,
+        "startChar": 3,
+        "endLine": 5,
+        "endChar": 23
+      },
+      "revId": "90824077cbd09b260747e17f1f98dc9bb16d419d",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
     }
   ]
 }
