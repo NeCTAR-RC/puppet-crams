@@ -2,6 +2,7 @@
 class crams::api (
   $crams_email,
   $admin_email,
+  $nectar_reply_to_list=['support@nectar.org.au'],
   $rc_shib_url='https://accounts.rc.nectar.org.au/rcshibboleth',
   $ks_admin_user='crams',
   $ks_admin_pass,

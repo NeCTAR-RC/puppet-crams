@@ -44,6 +44,7 @@ TEMPLATE_ROOT = '/usr/share/crams/templates'
 
 # Email notification configuration
 EMAIL_SENDER = '<%= @crams_email %>'
+NECTAR_NOTIFICATION_REPLY_TO = <%= @nectar_reply_to_list %>
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # django-mailer uses a different settings attribute
