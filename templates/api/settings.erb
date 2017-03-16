@@ -18,7 +18,7 @@ NECTAR_PREFIX_INVALID = <%= @nectar_project_id_invalid_prefix_list %>
 
 # Allowed Hosts
 ALLOWED_HOSTS = [
-   <% unless allowed_hosts.empty? %>'<%= allowed_hosts.join("',\n    '") %>'<% end %>
+   <% unless @allowed_hosts.empty? %>'<%= @allowed_hosts.join("',\n    '") %>'<% end %>
 ]
 
 # Use `django-admin generate_secret_key` to set a secret key
